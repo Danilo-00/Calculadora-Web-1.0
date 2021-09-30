@@ -1,0 +1,42 @@
+<html>
+    <head>
+
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="index.css">
+
+    </head>
+    <body>
+        <section id="calc">
+            <h1>Calculadora 1.0</h1>
+            <textarea name="name" id="visor"></textarea>
+            <table>
+                <tr>
+                    <td><button class="button" onclick="insert('7')">7</button></td>
+                    <td><button class="button" onclick="insert('8')">8</button></td>
+                    <td><button class="button" onclick="insert('9')">9</button></td>
+                    <td><button class="button" onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('4')">4</button></td>
+                    <td><button class="button" onclick="insert('5')">5</button></td>
+                    <td><button class="button" onclick="insert('6')">6</button></td>
+                    <td><button class="button" onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="insert('1')">1</button></td>
+                    <td><button class="button" onclick="insert('2')">2</button></td>
+                    <td><button class="button" onclick="insert('3')">3</button></td>
+                    <td><button class="button" onclick="insert('*')">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="button" onclick="limpaVisor()">C</button></td>
+                    <td><button class="button" onclick="insert('0')">0</button></td>
+                    <td><button class="button" onclick="calcular()">=</button></td>
+                    <td><button class="button" onclick="insert('/')">/</button></td>
+                </tr>
+            </table>
+        </section>
+
+        <script src="index.js"></script>
+    </body>
+</html>
